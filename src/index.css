@@ -1,0 +1,676 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.homepage-simpify-container {
+
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  background-color: #f7f7fb;
+}
+.as{
+  width: 98%;
+}
+.container-Testimonials{
+ padding-bottom: 3%; 
+}
+.homepage-simpify-heading {
+  font-size: 2.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 4%;
+  padding: 0 9%;
+}
+
+.homepage-simpify-description {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #6f6c90;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 9%;
+}
+
+@media (max-width: 435px) and (min-width: 299px) {
+  .homepage-simpify-heading {
+    font-size: 1.8rem;
+    margin-top: 6%;
+  }
+
+  .homepage-simpify-description {
+    font-size: 0.85rem;
+    padding: 0 5%;
+  }
+}
+
+.homepage-simpify-btn-1 {
+  border-radius: 100px;
+  padding: 2% 7%;
+  background-color: #ff3e54; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 5%;
+}
+
+.homepage-simpify-btn-2 {
+  border-radius: 100px;
+  padding: 2% 7%;
+  /* Optional styling */
+  background-color: #ffffff; /* Bootstrap primary color */
+  color: #ff3e54;
+  border: 1px solid #ff3e54;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 435px) and (min-width: 299px) {
+  .homepage-simpify-btn-1,
+  .homepage-simpify-btn-2 {
+    padding: 3% 6%;
+    font-size: 0.8rem;
+    margin-right: 3%;
+  }
+}
+
+.homepage-simpify-card-container {
+  width: 80%;
+  margin: 3% auto;
+
+}
+
+.homepage-simpify-card1 {
+  width: 100%;
+  height: auto;
+
+  justify-content: space-between;
+  border-radius: 26.37px;
+  background: #ff3e54;
+  padding: 5% 6% 5% 5%;
+}
+.homepage-simpify-card2{
+  width: 106%;
+  height: auto;
+
+  justify-content: space-between;
+  border-radius: 26.37px;
+}
+
+.homepage-simpify-card1-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 100%;
+  letter-spacing: -2%;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+.homepage-simpify-card1-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.homepage-simpify-card1-btn-1 {
+  border-radius: 100px;
+  padding: 3% 9%;
+  /* Optional styling */
+  background-color: #ffffff; /* Bootstrap primary color */
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 5%;
+}
+
+.homepage-simpify-card1-btn-2 {
+  border-radius: 100px;
+  padding: 3% 9%;
+  /* Optional styling */
+  background-color: #ffffff1a;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+  .homepage-simpify-card1-heading {
+    font-size: 3.5rem;
+    margin-bottom: 6%;
+  }
+
+  .homepage-simpify-card1-description {
+    font-size: 1.1rem;
+    line-height: 150%;
+    margin-bottom: 6%;
+  }
+
+  .homepage-simpify-card1-btn-1,
+  .homepage-simpify-card1-btn-2 {
+    padding: 2.5% 7%;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.company-logo-container {
+  padding: 5% 0 0 0;
+}
+
+.homepage-features-container {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.homepage-features-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 8%;
+  color: #0e1f51;
+}
+
+.homepage-features-card {
+  width: 100%;
+  height: 100%;
+  
+  padding: 4% 10%;
+  padding-bottom: 5%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.homepage-features-card-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0e1f51;
+  letter-spacing: 0%;
+  margin-bottom: -0%;
+}
+
+.homepage-features-card-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 10%;
+}
+.homepage-features-card-box {
+  height: 70px;
+  width: 70px;
+  background-color: #ffffff;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;
+}
+
+.homepage-features-card-number {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #0e1f51;
+  opacity: 10%;
+  margin-left: 40%;
+}
+
+@media (max-width: 1309px) and (min-width: 986px) {
+  .homepage-features-card-number {
+    margin-left: 0%;
+  }
+}
+
+.homepage-features-carddevider {
+  margin-bottom: 6%;
+  margin-top: 6%;
+}
+
+.homepage-features-card-image {
+  width: 60%;
+  height: 60%;
+}
+
+.homepage-Testimonials-container {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.homepage-Testimonials-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  /* line-height: 120%; */
+  /* letter-spacing: 0%; */
+  color: #0e1f51;
+}
+.homepage-Testimonials-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.homepage-Testimonials-lower-box {
+  width: 471px;
+  height: auto;
+  border: 16px solid #ff3e54;
+}
+
+.homepage-Testimonials-upper-box {
+  width: 250%;
+  height: auto;
+  margin: 8%;
+  background-color: #ffffff;
+}
+
+/* Default style (for large screens) */
+.homepage-Testimonials-upper-box {
+  width: 250%;
+  height: auto;
+  margin: 8%;
+  background-color: #ffffff;
+}
+
+/* Extra large screens (desktops) */
+@media (max-width: 1400px) {
+  .homepage-Testimonials-upper-box {
+    width: 200%;
+  }
+}
+
+/* Large laptops */
+@media (max-width: 1200px) {
+  .homepage-Testimonials-upper-box {
+    width: 150%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+  .homepage-Testimonials-upper-box {
+    width: 100%;
+    margin: 5%;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .homepage-Testimonials-upper-box {
+    width: 100%;
+    margin: 4% auto;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .homepage-Testimonials-upper-box {
+    width: 100%;
+    margin: 2% auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.homepage-Testimonials-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+
+  letter-spacing: 0%;
+  color: #0e1f51;
+  margin-bottom: 1%;
+}
+
+.homepage-Testimonials-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0%;
+  color: #0e1f51;
+  margin-bottom: 3%;
+}
+.homepage-Testimonials-review-full-section {
+  padding: 3%;
+}
+
+.homepage-Testimonials-review-section {
+  padding-right: 15%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical centering */
+  height: 100%;              /* fill parent */
+}
+.row.full-height {
+  min-height: 100vh;         /* ensures full screen height if needed */
+}
+
+.homepage-Testimonials-review {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 0%;
+}
+
+.homepage-Testimonials-client-name {
+   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 2%;
+}
+.homepage-Testimonials-client-details {
+   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 0%;
+}
+
+.homepage-Testimonials-btn-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* space between buttons */
+  margin-top: 20px; /* optional spacing from above */
+}
+
+.homepage-Testimonials-btn-1 {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  border: 2px solid #ff3e54;
+}
+
+.homepage-Testimonials-btn-2 {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-self: center;
+  background: #ff3e54;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.arrow {
+  height: 30%;
+  width: 30%;
+  margin: 30%;
+}
+
+.homepage-Testimonials-right-box {
+  width: 348px;
+  height: 370px;
+  border-bottom: 16px solid #ff3e54;
+  border-right: 16px solid #ff3e54;
+  border-top: 16px solid #ff3e54;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-Testimonials-image {
+  width: 95%;
+  height: auto;
+  padding: 3%;
+}
+
+.homepage-StartOrganiz-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .homepage-StartOrganiz-container {
+    width: 95%;
+  }
+}
+
+.homepage-StartOrganiz-image{
+  width: 100%;
+  height: auto;
+}
+
+.homepage-StartOrganiz-heading{
+ font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 2.3rem;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+
+.homepage-StartOrganiz-description{
+ font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 1.1rem;
+letter-spacing: 0%;
+
+}
+
+.homepage-StartOrganiz-container-right{
+  padding-right: 10%;
+}
+
+@media (max-width: 770px) {
+  .homepage-StartOrganiz-container-right {
+    padding-right: 0%;
+  }
+}
+
+
+.homepage-StartOrganiz-btn-1{
+width: 100px;
+height: 40px;
+padding: auto;
+background: #FF3E54;
+margin-right: 4%;
+border: none;
+color:#ffffff;
+font-size: 1rem;
+}
+
+.homepage-StartOrganiz-btn-2{
+width: 100px;
+height: 40px;
+padding: auto ;
+background: #ffffff;
+margin-right: 4%;
+border: 1px solid #FF3E54;
+color:#000000;
+font-size: 1rem;
+}
+
+
+.carousel-img {
+  border-radius: 20px;
+  width: 78%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+  background-color: #FF3E54;
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.carousel-title {
+  font-family: "Roboto", sans-serif;
+line-height: 100%;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  text-shadow: 0px 3.3px 19.77px 0px #00000059;
+
+}
+
+.carousel-footer {
+  margin-bottom: 30px;
+}
+
+.carousel-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 1%;
+}
+
+.carousel-role {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 1%;
+}
+
+.carousel-control-next-icon{
+      margin-left: -150px;
+}
+
+.logipsum-img{
+ 
+  margin-bottom: 3%;
+}
+
+
+
+/* Extra large screens (desktops) */
+@media (max-width: 1400px) {
+.homepage-simpify-card2{
+    width: 78%;
+  }
+}
+
+/* Large laptops */
+@media (max-width: 1200px) {
+  .homepage-simpify-card2 {
+    width: 137%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+  .homepage-simpify-card2{
+   width: 148%;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .carousel-img {
+    width: 55%;
+    
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .carousel-img {
+    width: 100%;
+    margin: 2% auto;
+  }
+}
+
+
+@media (max-width: 425px) and (min-width: 299px) {
+  .homepage-simpify-card1-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+
+  .homepage-simpify-card1-description {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 8%;
+    margin-bottom: 6%;
+  }
+
+  .homepage-simpify-card1-btn-1,
+  .homepage-simpify-card1-btn-2 {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    margin: 6px auto;
+    display: block;
+    width: 85%;
+    text-align: center;
+  }
+
+  .carousel-title {
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .carousel-name {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .carousel-role {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .logipsum-img {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto 5px auto;
+  }
+
+  .homepage-simpify-card1 {
+    padding: 20px 10px;
+  }
+}

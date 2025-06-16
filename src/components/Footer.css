@@ -1,0 +1,62 @@
+.footer {
+  background: rgba(255, 255, 255, 1);
+}
+
+.newsletter-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 1);
+  max-width: 406px;
+}
+
+.newsletter-input {
+  border: 0.81px solid rgba(0, 0, 0, 1);
+  padding: 9.75px;
+  width: 296.56px;
+  height: 39.5px;
+}
+
+.btn-join {
+  width: 96.6875px;
+  height: 39.5px;
+  padding: 9.75px 19.5px;
+  background: rgba(255, 62, 84, 1);
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+}
+
+.privacy-note {
+  font-family: "Roboto", sans-serif;
+  font-size: 9.75px;
+  color: rgba(0, 0, 0, 1);
+  max-width: 406.25px;
+}
+
+.footer-heading {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-links li {
+  font-family: "Roboto", sans-serif;
+  font-size: 11.38px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  font-family: "Roboto", sans-serif;
+  font-size: 11.38px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-policy-link {
+  text-decoration: underline;
+  color: black;
+  font-size: 11.38px;
+}
