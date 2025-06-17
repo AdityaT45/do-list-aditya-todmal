@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import GetStartedModal from "./GetStartedModal";
+import "./GetStartedModal.css";
 
 import img1 from "../assets/images/l1.png";
 import img2 from "../assets/images/l2.png";
@@ -9,8 +11,10 @@ import carsole from "../assets/images/carsole.png";
 import logipsum from "../assets/images/logipsum.png";
 
 const Simplify = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <>
+      <GetStartedModal open={modalOpen} onClose={() => setModalOpen(false)} />
       <div className="homepage-simpify-container">
         <div className="row as">
           <div className="col-1 col-md-2 col-xl-3"></div>
@@ -27,7 +31,7 @@ const Simplify = () => {
             <div className="row">
               <div className="col-1  "></div>
               <div className="col-10 text-center ">
-                <button className="homepage-simpify-btn-1">Get started</button>
+                <button className="homepage-simpify-btn-1" onClick={() => setModalOpen(true)}>Get started</button>
                 <button className="homepage-simpify-btn-2">Learn more</button>
               </div>
               <div className="col-1  "></div>
@@ -39,7 +43,7 @@ const Simplify = () => {
 
         <div className="homepage-simpify-card-container  ">
           <div className="row d-flex justify-content-center">
-            <div className="col-12  col-sm-6 col-lg-8   ">
+            <div className="col-12  col-sm-6 col-lg-8   homepage-simpify-card1-col">
               <div className="homepage-simpify-card1">
                 <p className="homepage-simpify-card1-heading">
                   <span style={{ color: "#FFFFFF80" }}>Organize.</span>
@@ -68,7 +72,7 @@ const Simplify = () => {
 
 
 
-            <div className="col-12 col-sm-6 col-lg-4  ">
+            <div className="col-12 col-sm-6 col-lg-4  homepage-simpify-card2-col">
               <div className="homepage-simpify-card2 ">
                 <div
                   id="testimonialCarousel"

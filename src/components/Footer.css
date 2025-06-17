@@ -60,3 +60,80 @@
   color: black;
   font-size: 11.38px;
 }
+
+@media (max-width: 992px) {
+  .footer .container {
+    max-width: 100vw !important;
+    padding: 0 2vw !important;
+  }
+  .footer .row.justify-content-between.g-5 {
+    flex-direction: column !important;
+    gap: 32px !important;
+    align-items: center !important;
+  }
+  .footer .col-lg-4, .footer .col-lg-7, .footer .col-md-5, .footer .col-md-6 {
+    width: 100% !important;
+    max-width: 100vw !important;
+    margin-bottom: 18px !important;
+    text-align: center !important;
+    display: block !important;
+  }
+  .footer-heading {
+    text-align: center !important;
+    font-size: 1.1rem !important;
+  }
+  .footer-links li {
+    font-size: 13px !important;
+    text-align: center !important;
+  }
+  .newsletter-text, .privacy-note {
+    max-width: 100% !important;
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+  .newsletter-input, .btn-join {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin-bottom: 10px !important;
+    font-size: 1rem !important;
+  }
+  .newsletter-input {
+    margin-right: 0 !important;
+  }
+  .footer-bottom {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+    text-align: center !important;
+    padding-top: 18px !important;
+    font-size: 12px !important;
+  }
+  .footer-policy-link {
+    font-size: 12px !important;
+    margin: 0 6px !important;
+  }
+  .footer .d-flex.gap-3 {
+    flex-direction: column !important;
+    gap: 6px !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 600px) {
+  .footer .container {
+    padding: 0 1vw !important;
+  }
+  .footer .row.justify-content-between.g-5 {
+    gap: 18px !important;
+  }
+  .footer-heading {
+    font-size: 1rem !important;
+  }
+  .footer-links li, .footer-bottom, .footer-policy-link {
+    font-size: 11px !important;
+  }
+  .newsletter-input, .btn-join {
+    font-size: 0.95rem !important;
+    padding: 8px 0 !important;
+  }
+}

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row justify-content-between g-5">
           
           {/* Newsletter */}
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-5">
             <img
               src={logo}
               alt="Logo"

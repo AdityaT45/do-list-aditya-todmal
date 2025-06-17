@@ -18,7 +18,7 @@ const Testimonials = () => {
             <div className="homepage-Testimonials-lower-box">
               <div className="homepage-Testimonials-upper-box">
                 <div className="row homepage-Testimonials-review-full-section">
-                  <div className="col-8 ">
+                  <div className="col-12 col-lg-8">
                     <div className=" homepage-Testimonials-review-section">
                       <p className="homepage-Testimonials-review">
                         Using this website has made my tasks so much easier! I
@@ -50,7 +50,7 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  <div className="col-4">
+                  <div className="col-12 col-lg-4">
                     <div className="homepage-Testimonials-right-box">
                       <div>
                         <img
